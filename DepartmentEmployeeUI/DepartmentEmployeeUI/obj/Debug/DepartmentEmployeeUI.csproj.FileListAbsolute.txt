@@ -1,0 +1,4 @@
+D:\AD project\DepartmentEmployeeUI\DepartmentEmployeeUI\bin\DepartmentEmployeeUI.dll
+D:\AD project\DepartmentEmployeeUI\DepartmentEmployeeUI\bin\DepartmentEmployeeUI.pdb
+D:\AD project\DepartmentEmployeeUI\DepartmentEmployeeUI\obj\Debug\DepartmentEmployeeUI.dll
+D:\AD project\DepartmentEmployeeUI\DepartmentEmployeeUI\obj\Debug\DepartmentEmployeeUI.pdb

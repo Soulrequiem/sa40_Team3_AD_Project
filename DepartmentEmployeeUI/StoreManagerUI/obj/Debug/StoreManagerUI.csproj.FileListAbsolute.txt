@@ -1,0 +1,4 @@
+D:\AD project\DepartmentEmployeeUI\StoreManagerUI\bin\StoreManagerUI.dll
+D:\AD project\DepartmentEmployeeUI\StoreManagerUI\bin\StoreManagerUI.pdb
+D:\AD project\DepartmentEmployeeUI\StoreManagerUI\obj\Debug\StoreManagerUI.dll
+D:\AD project\DepartmentEmployeeUI\StoreManagerUI\obj\Debug\StoreManagerUI.pdb

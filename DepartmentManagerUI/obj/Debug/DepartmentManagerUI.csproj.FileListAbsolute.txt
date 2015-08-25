@@ -1,0 +1,4 @@
+D:\AD project\DepartmentManagerUI\bin\DepartmentManagerUI.dll
+D:\AD project\DepartmentManagerUI\bin\DepartmentManagerUI.pdb
+D:\AD project\DepartmentManagerUI\obj\Debug\DepartmentManagerUI.dll
+D:\AD project\DepartmentManagerUI\obj\Debug\DepartmentManagerUI.pdb

@@ -1,0 +1,54 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Store_Clerk.master.cs" Inherits="WebApplication1.Store_Clerk" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head id="Head1" runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <link rel="stylesheet" type="text/css" href="Styles/StyleSheet1.css" />
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div class="header">
+        <div class="logo">Logic University Stationary
+        </div>
+        <div class="logout">
+            Welcome User1 <br />
+            <asp:HyperLink ID="HyperLink1" runat="server" ForeColor="#0099FF" NavigateUrl="/">Logout</asp:HyperLink>
+        </div>
+        </div>
+        <div class="menu">
+            <br />
+            <asp:Menu ID="Menu1" runat="server" BackColor="#3498DB" ForeColor="White" Height="46px" Orientation="Horizontal" Width="100%">
+                <Items>
+                    <asp:MenuItem Text="Home" Value="Home"></asp:MenuItem>
+                    <asp:MenuItem Text="Collection Point Info" Value="Collection Point Info"></asp:MenuItem>
+                    <asp:MenuItem Text="Manage Stock" Value="Manage Stock"></asp:MenuItem>
+                    <asp:MenuItem Text="Requisition Form" Value="Requisition Form"></asp:MenuItem>
+                    <asp:MenuItem Text="Logout" Value="Logout"></asp:MenuItem>
+                </Items>
+                <StaticHoverStyle BackColor="#2E8ECE" />
+                <StaticMenuItemStyle Font-Names="Verdana" Font-Size="16pt" HorizontalPadding="20px" VerticalPadding="10px" />
+                <StaticMenuStyle Height="40px" Width="100%" />
+            </asp:Menu>
+            <br />
+        </div>
+    <div>
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder2" runat="server">
+        
+        </asp:ContentPlaceHolder>
+    </div>
+        <div class="footer">
+            <asp:HyperLink ID="HyperLink3" runat="server">Home</asp:HyperLink>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<asp:HyperLink ID="HyperLink4" runat="server">Collection Point Info</asp:HyperLink>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<asp:HyperLink ID="HyperLink5" runat="server">Manage Stock</asp:HyperLink>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<asp:HyperLink ID="HyperLink6" runat="server">Requisition Form</asp:HyperLink>
+            <br /><br />&copy; SA 40 - Team 3
+        </div>
+    <div>
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+    </div>
+    </form>
+</body>
+</html>
